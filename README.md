@@ -1,6 +1,7 @@
 # ENGO500_Group1
 
 Indoor Positioning using Ranging Radios
+
 The purpose of this project will be to develop an Android application to display the users' position in an indoor environment in real time. This will be done using a series of ranging radio nodes positioned on the walls of the test location, to determine a position through trilateration. This will be completed by:
   1)Data collection and proof of concept to determine positions through post processing,
   2)Real time data collection and processing, 
