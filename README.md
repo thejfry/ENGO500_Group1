@@ -6,6 +6,7 @@
 > 1.	Data collection and proof of concept to determine positions through post processing,
 > 2.	Real time data collection and processing, 
 > 3.	Android application development and testing to display positions in a user friendly interface.
+
 > Testing will be completed at each step, including but not limited to various testing environments and data analysis approaches. The possibility of the use of low cost INS and other self-contained sensors to improve the indoor position will also be explored.  
   
   
