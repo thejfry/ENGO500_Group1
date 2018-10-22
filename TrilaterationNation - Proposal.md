@@ -4,7 +4,7 @@
 > Provide a short narrative description of the project.  Identify/describe any technical and business problem that would be solved, the key benefits and how the project aligns with/supports the strategic direction/objectives of the proponent organization or members, its collaborators, and clients/users.
 
 
-> Indoor positioning is an ongoing challenge in the market place, something about how indoor positioning is relative. Ultra-wideband real-time location systems, ranging radios, are a product currently in the marketplace, that could be used for indoor positioning. The company Decawave currently makes a small, portable product, sold with their own application that allows the user to select the location of the node radios, and then, using the raw ranging data collected via Bluetooth streams, determines the position of the user. This is done using a simple algorithm that calculates the position from each node, compares the positions, and selects the one that matches the other solutions the best. To improve the user experience, an android application will be developed
+Indoor positioning is an ongoing challenge in the market place, something about how indoor positioning is relative. Ultra-wideband real-time location systems, ranging radios, are a product currently in the marketplace, that could be used for indoor positioning. The company Decawave currently makes a small, portable product, sold with their own application that allows the user to select the location of the node radios, and then, using the raw ranging data collected via Bluetooth streams, determines the position of the user. This is done using a simple algorithm that calculates the position from each node, compares the positions, and selects the one that matches the other solutions the best. To improve the user experience, an android application will be developed
 
 
 ## Proponent Profile
@@ -50,7 +50,7 @@ Describe plans for the maintenance and/or further development of the project out
 ## Issue Identification
 > Specify any major policy, standards, data, technical, partnership and/or client engagement issues that need to be addressed in order for the project to be successful. 
 
-> There are three main categories of risk within the project; software development, the use and reliability of open source software for processing and testing, and the risk of not completing the tasks or improving the client experience. The main risk for the completion of this project will be the limitations in software development. Streaming data in real time, programming with Java, and android application development are all new skills being developed by team members.
+There are three main categories of risk within the project; software development, the use and reliability of open source software for processing and testing, and the risk of not completing the tasks or improving the client experience. The main risk for the completion of this project will be the limitations in software development. Streaming data in real time, programming with Java, and android application development are all new skills being developed by team members.
 
 
 ## Feasibility and Risk 
