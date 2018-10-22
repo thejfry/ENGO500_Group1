@@ -4,7 +4,7 @@
 > Provide a short narrative description of the project.  Identify/describe any technical and business problem that would be solved, the key benefits and how the project aligns with/supports the strategic direction/objectives of the proponent organization or members, its collaborators, and clients/users.
 
 
-Indoor positioning is an ongoing challenge in the market place, something about how indoor positioning is relative. Ultra-wideband real-time location systems, ranging radios, are a product currently in the marketplace, that could be used for indoor positioning. The company Decawave currently makes a small, portable product, sold with their own application that allows the user to select the location of the node radios, and then, using the raw ranging data collected via Bluetooth streams, determines the position of the user. This is done using a simple algorithm that calculates the position from each node, compares the positions, and selects the one that matches the other solutions the best. To improve the user experience, an android application will be developed
+Indoor positioning is an ongoing challenge in the market place. With cities growing up and architecture advancing, indoor navigation could be used for construction site navigation, 3D mapping of buildings and floorplans, and many other applications. Ultra-wideband real-time location systems, ranging radios, are a product on the marketplace, that can be used as a solution to this problem. The company Decawave currently makes a small, portable product, sold with their own application that allows the user to select the location of the node radios, and then, using the raw ranging data collected via Bluetooth streams, determines the position of the user [1]. This is done using a simple algorithm that calculates the position from each node, compares the positions, and selects the one that matches the other solutions the best [2]. To improve the user experience, an android application will be developed that will allow for the user to input node locations, upload blueprints, and view their position in real-time. The application will stream raw data from the array of ranging radios and calculate the users position using least squares estimation.
 
 
 ## Proponent Profile
@@ -62,6 +62,8 @@ No. | Risk Description | Severity (H/M/L) | Probability (H/M/L) | Mitigation str
 2 | | | |
 
 > To demonstrate feasibility, make reference to past research, pilot projects, demonstrations, previous experience, and reports. Evaluate the mitigation statements against the Project Implementation Plan for availability of resources and flexibility to address potential risks.  If no mitigation is planned, indicate “none”.
+
+This application can be improved upon by adding, and augmenting the least squares estimation to a sequencal least squares, or Kalman filter. 
 
 # Project Plan
 ## Project Team and Resources
@@ -122,3 +124,6 @@ WBS | Task & work breakdown | Days effort | Outputs | Start Date | Delivery Date
 ## Benefits to Canadians 
 ## Benefits to Sponsors and Users
 
+# References 
+[1] decawave website
+[2] mdek user manual
