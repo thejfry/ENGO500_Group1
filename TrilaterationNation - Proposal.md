@@ -87,58 +87,100 @@ The application can be improved upon by adding user features such as the ability
 
 # Project Plan
 ## Project Team and Resources
-> Identify the resource name, organization, role and responsibilities of the resource. Note any unique competencies that are required to deliver on the project. If the resource name is unknown note this in the resource name field but complete the role, and unique competencies fields. Collaborating organizations resources also need to be included in this table. 
+The following are all personnel who will be involved with the completion of 'insert project name'.
 
-Name | John Doe
+Name | Paul Gratton
 ------------ | -------------
-**Organization** | Project Team #1
-**Role** | Project Manager
-**Responsibilities** | Do what project manager does
-**Key Skills** | Key skills of a project manager
+**Organization** | Trilateration Nation
+**Role** | Team Member
+**Responsibilities** | Contribute to completion of the project
+**Key Skills** | Experience in advanced data analysis algorithms for position estimation
+
+Name | Jamie Horrelt
+------------ | -------------
+**Organization** | Trilateration Nation
+**Role** | Team Member
+**Responsibilities** | Contribute to completion of the project
+**Key Skills** | Experience in advanced data analysis algorithms for position estimation
+
+Name | Kate Pexman
+------------ | -------------
+**Organization** | Trilateration Nation
+**Role** | Team Member
+**Responsibilities** | Contribute to completion of the project
+**Key Skills** | Experience in app development
+
+Name | Jeffrey Plett
+------------ | -------------
+**Organization** | Trilateration Nation
+**Role** | Team Member
+**Responsibilities** | Contribute to completion of the project
+**Key Skills** | Experience in digital mapping
+
+Name | Kyle O'Keefe
+------------ | -------------
+**Organization** | University of Calgary
+**Role** | Project Supervisor
+**Responsibilities** | Provide mentorship and advice regarding the project, as well as answer questions regarding the project
+**Key Skills** | Technical knowledge in wireless ranging, experience in project management
+
+Name | Chandra Tjhai
+------------ | -------------
+**Organization** | PLAN group
+**Role** | Tech Consultant
+**Responsibilities** | Suggesting best practices and answering questions regarding the currently available tech
+**Key Skills** | Technical knowledge in wireless ranging and data streams
+
+Name | Steve Liang
+------------ | -------------
+**Organization** | SensorUp
+**Role** | Project Management Consultant
+**Responsibilities** | Suggesting best practices and answering questions regarding project management procedures
+**Key Skills** | Team leadership, project management
 
 ## Project  Management and Control
-> Describe mechanisms in place to ensure effective management and control of the proposed project.
+The proposed project will be managed using the following mechanisms:
+- Regular meetings with project supervisor,
+- Regular meetings with project management consultant,
+- Regular commincation with fellow team members through Slack channel.
 
 ## Project Implementation Plan
-> Include a thorough project implementation plan, and clearly indicate the following elements:
-
-> Project phases with well-defined activities or tasks for each stage and calendar-based schedule
-> Project control and tracking methods 
-> Communication and feedback mechanisms
-> Milestones and deliverables (below)
-
-> The project should be divided into phases, with a series of milestones at critical points in the work. Each milestone should be qualified with associated tasks to be completed. Deliverables are to be linked to these milestones. 
-
-> Complete the table below. The schedule of work is left to the discretion of the project proponent. 
-
-> •	Column 1 “WBS” – identifies a number for each task and sub-task and milestones. 
-> •	Column 2 “Task and work breakdown” – describes each task and sub-task and milestone. Sub-tasks must be defined to a maximum of ten days. As a guideline, it is advisable to provide a breakdown / detail on any activity with a total effort of more than 10 days
-> •	Column 3 “Duration (days)”is the total length of time in working days that the activity will take.
-> •	Column 4 “Organization” – indicates the name of the organization responsible for the task. 
-> •	Column 5 “Team Members Name” – identifies the actual personnel assigned to carry out the described task. 
-> •	Column 6 “Days effort/person” – indicates the level of work effort in days for each team member. 
-> •	Column 7 “Outputs” – indicates all the outputs to be delivered at the milestone. 
-> •	Column 8 “Start Date” – indicates the date at which the first activity begins.
-> •	Column 9 “Delivery Date” – indicates the date for delivery of the final deliverable of a particular milestone. 
 
 WBS | Task & work breakdown | Days effort | Outputs | Start Date | Delivery Date
------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
-**1** | **Initiation Phase** | **14** |** ** |  **20xx-xx-xx** | ** **
-1.1 | Kick-off meeting, including preperation | 2 | Meeting minutes document on GitHub | 2014-03-14 | 
-1.2 | some tasks here | 5 |  | 20xx-xx-xx | 
-1.3 | some taks here | 5 |  | 20xx-xx-xx | 
-**2** | **Phase 2** | **15** |** ** |  **20xx-xx-xx** | ** **
-2.1 | some tasks here | 5 |  | 20xx-xx-xx | 
-2.2 | some tasks here | 5 |  | 20xx-xx-xx | 
-**3** | **Phase 3** | **20** |** ** |  **20xx-xx-xx** | ** **
-3.1 | some tasks here | 10 |  | 20xx-xx-xx | 
-3.2 | some tasks here | 5 |  | 20xx-xx-xx | 
+------------ | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: 
+**1** | **Initiation Phase** | ** ** | ** ** | **2018-09-18** | ** **
+1.1 | Meet project supervisor |  | Finalized project plan | 2018-09-20 
+1.2 | Written project proposal | 3 | Project proposal documentation | 2018-10-26 
+1.3 | Project proposal presentation | 1 | Presentation file | 2018-10-30 
+**2** | **Proof of Concept** | ** ** | ** ** | **2018-10-31** | ** **
+2.1 | Collect raw UWB ranging data | 1 |  |  | 2018-10-16 
+2.2 | Build position estimator | 5 |  |  |  
+2.3 | Map positions in post processing | 1 |  |  |  
+2.4 | Build simple app to display processed positions | 5 | Basic app |  | 2018-11-23  
+2.5 | Document results | 5 | Milestone report #1 |  | 2018-11-30
+**3** | **Develop Data Stream** | ** ** | ** ** | **2018-12-01** | ** **
+3.1 | Connect radio tag to computer | 1 |  |  | 
+3.2 | Stream UWB ranging data directly into estimator | 5 |  |  | 
+3.3 | Make plot showing real time position estimations | 5 | Real time digital mapping code |  | 2019-01-25
+3.4 | Document results | 5 | Milestone report #2 |  | 2019-01-31
+**4** | **Integrate Data Stream into Android App** | ** ** | ** ** | **2019-02-01** | ** **
+4.1 | Integrate position estimator into app developed in 2.4 | 10 |  | 2019-02-13 | 
+4.2 | Test real time position estimation in app in controlled environment | 3 |  | 2019-02-15 | 
+4.3 | Test real time position estimation in app in a variety of environments | 5 |  |  |
+4.4 | Document results | 5 | Milestone report #3 |  | 2019-03-01
+**5** | **Present Results** | ** ** | ** ** | **2019-03-04** | ** **
+5.1 | Write final report | 10 | Final written report |  | 
+5.2 | Prepare final presentation | 5 | Presentation file |  | 
+5.3 | Design poster | 1 | Capstone fair poster |  |  | 
 
 ## Budget Summary
-> Briefly describe the budget required for this project. Itemize and justify the expenses.
+Project costs can be broken down into the following categories:
+- Administration: Printing or binding of results and updates for documentation throughout the project.
+- Communication: Purchasing or printing of presentation materials to clearly portray the results of the project to potential clients and users at the Capstone Design Fair.
+
 
 ## Communications Plan and Accessibility of Project Results
-> Describe how you will share and disseminate results of your project amongst your organization, the collaborating organizations as well and clients/users (i.e., presentations, post on the web, conferences, demonstrations, press releases etc.).
+Results of the project will be dissmeinated throughout our organization through consistent weekly updates, while being communicated to collaborators such as Steve Liang and Kyle O'Keefe through project update presentations occuring in November 2018 and February 2019. All results will be communicated to users and potential clients at the University of Calgary Capstone Design Fair in March 2019.
 
 # Benefits
 ## Benefits to Canadians 
