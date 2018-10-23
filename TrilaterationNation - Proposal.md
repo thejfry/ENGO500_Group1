@@ -71,14 +71,56 @@ The application can be improved upon by adding user features such as the ability
 
 # Project Plan
 ## Project Team and Resources
-> Identify the resource name, organization, role and responsibilities of the resource. Note any unique competencies that are required to deliver on the project. If the resource name is unknown note this in the resource name field but complete the role, and unique competencies fields. Collaborating organizations resources also need to be included in this table. 
+> The following are all personnel who will be involved with the completion of 'insert project name'.
 
-Name | John Doe
+Name | Paul Gratton
 ------------ | -------------
-**Organization** | Project Team #1
-**Role** | Project Manager
-**Responsibilities** | Do what project manager does
-**Key Skills** | Key skills of a project manager
+**Organization** | Trilateration Nation
+**Role** | Team Member
+**Responsibilities** | Contribute to completion of the project
+**Key Skills** | Experience in advanced data analysis algorithms for position estimation
+
+Name | Jamie Horrelt
+------------ | -------------
+**Organization** | Trilateration Nation
+**Role** | Team Member
+**Responsibilities** | Contribute to completion of the project
+**Key Skills** | Experience in advanced data analysis algorithms for position estimation
+
+Name | Kate Pexman
+------------ | -------------
+**Organization** | Trilateration Nation
+**Role** | Team Member
+**Responsibilities** | Contribute to completion of the project
+**Key Skills** | Experience in app development
+
+Name | Jeffrey Plett
+------------ | -------------
+**Organization** | Trilateration Nation
+**Role** | Team Member
+**Responsibilities** | Contribute to completion of the project
+**Key Skills** | Experience in digital mapping
+
+Name | Kyle O'Keefe
+------------ | -------------
+**Organization** | University of Calgary
+**Role** | Project Supervisor
+**Responsibilities** | Provide mentorship and advice regarding the project, as well as answer questions regarding the project
+**Key Skills** | Technical knowledge in wireless ranging, experience in project management
+
+Name | Chandra Tjhai
+------------ | -------------
+**Organization** | PLAN group
+**Role** | Tech Consultant
+**Responsibilities** | Suggesting best practices and answering questions regarding the currently available tech
+**Key Skills** | Technical knowledge in wireless ranging and data streams
+
+Name | Steve Liang
+------------ | -------------
+**Organization** | SensorUp
+**Role** | Project Management Consultant
+**Responsibilities** | Suggesting best practices and answering questions regarding project management procedures
+**Key Skills** | Team leadership, project management
 
 ## Project  Management and Control
 > Describe mechanisms in place to ensure effective management and control of the proposed project.
@@ -106,7 +148,7 @@ Name | John Doe
 > •	Column 9 “Delivery Date” – indicates the date for delivery of the final deliverable of a particular milestone. 
 
 WBS | Task & work breakdown | Days effort | Outputs | Start Date | Delivery Date
------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
+------------ | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: 
 **1** | **Initiation Phase** | **14** |** ** |  **20xx-xx-xx** | ** **
 1.1 | Kick-off meeting, including preperation | 2 | Meeting minutes document on GitHub | 2014-03-14 | 
 1.2 | some tasks here | 5 |  | 20xx-xx-xx | 
@@ -119,10 +161,14 @@ WBS | Task & work breakdown | Days effort | Outputs | Start Date | Delivery Date
 3.2 | some tasks here | 5 |  | 20xx-xx-xx | 
 
 ## Budget Summary
-> Briefly describe the budget required for this project. Itemize and justify the expenses.
+Project costs can be broken down into the following categories:
+- Administration: Printing or binding of results and updates for documentation throughout the project.
+- Communication: Purchasing or printing of presentation materials to clearly portray the results of the project to potential clients and users at the Capstone Design Fair.
+
 
 ## Communications Plan and Accessibility of Project Results
 > Describe how you will share and disseminate results of your project amongst your organization, the collaborating organizations as well and clients/users (i.e., presentations, post on the web, conferences, demonstrations, press releases etc.).
+Results of the project will be dissmeinated throughout our organization through consistent weekly updates, while being communicated to collaborators such as Steve Liang and Kyle O'Keefe through project update presentations occuring in November 2018 and February 2019. All results will be communicated to users and potential clients at the University of Calgary Capstone Design Fair in March 2019.
 
 # Benefits
 ## Benefits to Canadians 
