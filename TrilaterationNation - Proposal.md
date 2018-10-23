@@ -1,5 +1,6 @@
+# Indoor Positioning using Ultra-Wideband Ranging Systems
+
 # Project Overview
-## Project Name
 ## Project Description
 > Provide a short narrative description of the project.  Identify/describe any technical and business problem that would be solved, the key benefits and how the project aligns with/supports the strategic direction/objectives of the proponent organization or members, its collaborators, and clients/users.
 
