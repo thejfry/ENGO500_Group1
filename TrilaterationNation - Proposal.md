@@ -14,35 +14,49 @@ Indoor positioning is an ongoing challenge in the market place. With cities grow
 
 # Project Performance Framework
 ## Objectives, outputs, outcomes and criteria
-> Identify and define project objectives, outputs and outcomes as well as a measurement criteria. 
-> -	Objectives: Define what the project is trying to achieve.
-> -	Outputs: Deliverables and products produced by the project.
-> -	Outcomes: Impact you are working to realize such as behaviours and practices that results from the outputs. They can be short, medium or long term.
+The objectives of this project have been defined as the two objectives seen in the table below. Overall, the success of this project will be evaluated based on the performance of the final product compared to the currently available application provided by the hardware developer. This application implements a somewhat arbitrary position estimator [Paul 1], which significantly limits the potential of the hardware which may be capable of providing much more accurate positions. The outcomes of both objectives presented could result in an increase in implementation of this indoor positioning system, which will allow users to obtain high-precision position solutions at a low cost, faster, easier and more reliably than before. Obtaining these objectives is well within the capability of this capstone project group, as all positioning methods have been covered in coursework and any required programming techniques are either already known or within the ability of the group members to learn.
 
 Item | Project Objectives | Project Outputs | Project Outcomes | Measurement Criteria
 ------------ | ------------- | ------------- | ------------- | -------------
-1 | | | |
-2 | | | |
-
-> For the measurement criteria provide a statement that describes what the project will accomplish and the performance measure. The project objectives whenever possible should be written to be specific, measurable, achievable, realistic and timely (SMART). The measurement criteria specifies a metric(s) that will measure success.  
+1 | Create an Android application with better real-time indoor positioning than the currently available option | Android software that implements least-squares estimation or Kalman filtering to calculate position | The new software will be a significant improvement on the current position estimation method, providing much more reliable position solutions which could lead to a significant increase in the use of the mdek1001 ranging radios for indoor positioning |  Statistical analysis of positions produced by both the new and current applications using network of known positions 
+2 | Improve on the user interface of the currently available real-time positioning app | User interface that is capable of loading floor plans or other diagrams on which the user can select points on the floor plan to indicate locations of radio anchors, as well as implement a more intuitive design | Improving the user interface will increase the speed and ease with which the ranging radio positioning system can be used, which will also expand its use | Subjective testing with potential users of the system in comparison with the existing app 
 
 ## Project Performance Measurement Plan
-> For each project objective and measurement criteria identified in the above table, indicate the methods used to measure, who is responsible, frequency of measurement, key targets and reporting on results. For example, if there are three(3) project objectives, fill out a performance measurement plan for each objective.
+Below are the specific testing methods and other details for each of the objectives presented above.
 
 Project Objective | Measurement Criteria
 ------------ | -------------
+1: Improve position estimation | Statistical Analysis
 **Description of Measure** | **Method**
-Method used to measure |
-Responsibility: who measures/analyses/reports|
-Frequency of measure |
-Key targets |
-Reporting on results |
+Method used to measure | Position testing on an accurate 1m x 1m grid, followed by performance testing in non-ideal environments e.g. crowded public spaces
+Responsibility | All group members will participate in test design and implementation, with the group members J. Horrelt and P. Gratton focusing on the analysis and reporting as this is their area of expertise.
+Frequency of measure | Amount of testing will depend on consistency of results and success in increasing the complexity of the project. Initial testing to establish functionality and optimize performance in ideal conditions will be frequent (every 2-3 weeks). Testing in non-ideal conditions will be sparse, only provided as an example of how far the final system can be pushed.
+Key targets | First Semester: produce successful post-processing psoition software; February: apply post-processing algorithm in real time
+Reporting on results | Software updates will be kept available to the entire group in GitHub or another sharing platform if it is more efficient. Results of major tests or groups of tests will be reported on to supervisor as they become available. Updates will be delivered to the course coordinator informally upon request, and formally at each of the two progress updates required for the course.
+
+Project Objective | Measurement Criteria
+------------ | -------------
+2: Improve user interface | Subjective user testing
+**Description of Measure** | **Method**
+Method used to measure | Subjective testing by all group members as well as additional test subjects, by using both the existing app and the new app developed for this project, to determine which is more user-friendly, as well as any further improvements that could be made to the new app.
+Responsibility | The entire group will be involved in design decisions and testing of the user interface, but the majority of the Android application programming will be perfomed by the group members J. Plett and K. Pexman, who have more expertise in this area.
+Frequency of measure | User interface testing will be performed only by the group members as it is updated throughout the project, and will be tested more extensively by additional testers before the final product is completed and released, in as many iterations as it takes to reach an acceptable level of user approval.
+Key targets | It is only necessary to complete the user interface before the product is released for evaluation, until which it will be in a highly variable state of completeness. Therefore there will be minimal intermediate targets for this objective.
+Reporting on results | As there will be minimal testing throughout the early stages of the project, this objective will likely only be reported on in major progress updates, after the major testing with non-group member users, and in the final presentation.
 
 ## Sustainability
 > Describe plans for maintenance and/or further development of the project outputs.  Demonstrate that the organization sustaining the project results has a structure in place to do so.  
-Describe plans for the maintenance and/or further development of the project outputs for the immediate years following the GeoConnections’ funded project.  Identify as specifically as possible the organization and sector or division that will be responsible for maintaining the results.  
+`Describe plans for the maintenance and/or further development of the project outputs for the immediate years following the GeoConnections’ funded project.  Identify as specifically as possible the organization and sector or division that will be responsible for maintaining the results. `-IS THIS NECESSARY??
 
-> Describe the role of your collaborators in sustaining your project.
+As this project has been presented by Dr. O'Keefe and all previous work with these ranging radios has been performed by the Position. Location and Navigation research group at the University of Calgary, it is likely that they would undertake the contuned maintenance of the application produced by this project, should they wish to continue using it. The majority of the maintenance required would be in keeping the application compatible with the firmware of the radios themselves, as well as any Android updates that could potentially cause compatibility issues with the app. These are extremely necessary tasks as Android software is continually updating, and the radios are also currently running on an older version of their firmware; it may even be necessary to adjust the app during this project, should it become necessary to update the radio firmware immediately.
+
+The collaborators on this project include:
+  * Dr. Kyle O'Keefe, who will be supervising the project
+  * Chandra Tjhai, one of Dr. O'Keefe's PhD candidates who has previous experience with the equipment
+  * Asal Naghdi, another one of Dr. O'Keefe's PhD candidates who is also currently using the ranging radios in her research.
+
+Dr. O'Keefe will be providing guidance on the project more from a distance, as well as evaluating the technical portion of the project. He will also likely be responsible for deciding whether this project will be continued by future students or if this will be the last application of this particualr technology. Chandra and Asal will be providing more of the personal assistance in this project as they have the most experience in the operation and analysis of this technology in the Department of Geomatics, to the best knowledge of the group members at this time. Any further work on this project after its completion will likely be performed by future graduate or undergraduate students.
+
 
 # Project Issues and Risks
 ## Issue Identification
@@ -133,3 +147,4 @@ WBS | Task & work breakdown | Days effort | Outputs | Start Date | Delivery Date
 # References 
 [1] decawave website
 [2] mdek user manual
+[Paul 1] Personal Communication, Dr. O'Keefe, whenever that first meeting was
