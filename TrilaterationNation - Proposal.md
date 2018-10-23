@@ -55,18 +55,20 @@ Describe plans for the maintenance and/or further development of the project out
 There are three main categories of risk within the project; software development, the use and reliability of the product and the open source software for processing and testing, and the risk of not completing the tasks or improving the client experience. The main risk for the completion of this project will be the limitations in software development. Streaming data in real time, programming with Java, and android application development are all new skills being developed by team members. The team currently has access to eight ranging devices, supplied by. However, the firmware embedded in the device currently only supports range values from four node locations. This limits the redundancy of the network, reducing the precision of the estimated position. Finally, the risk of not completing the project
 
 No. | Risk Description | Severity (H/M/L) | Probability (H/M/L) | Mitigation strategies for dealing with each risk 
------------- | ------------- | ------------- | ------------- | -------------
-1 | Software Development | H | M | Cyclical development for achieving tasks. 
-2 | Product Reliability | M | M | Addition ranging devices and potential firmware improvement updates.
-3 | Project Completion | M | L | Set goals, and levels of completeness
+------------ | :-------------: | :-------------: | :-------------: | -------------
+1 | **Software Development** | H | M | Cyclical development for achieving tasks. 
+2 | **Product Reliability** | M | M | Addition ranging devices and potential firmware improvement updates.
+3 | **Project Completion** | M | L | Set goals, and levels of completeness
 
 > To demonstrate feasibility, make reference to past research, pilot projects, demonstrations, previous experience, and reports. Evaluate the mitigation statements against the Project Implementation Plan for availability of resources and flexibility to address potential risks.  If no mitigation is planned, indicate “none”.
 
 To mitigate the level of risk within the project, tasks will be completed in a cyclical process. This will be done in 3 steps:
-> 1. Proof of concept. This will be done by developing a basic program in MATLAB to read in raw data files recorded on Decawave's application. The program will use least squares estimation to determine a position at each epoch, using all four ranges. These positions will then be plotted and compared with the solution obtained by the Decawave application. 
-> 2. Team members will learn to use Java and stream raw data directly from the ranging devices, into estimation software, where the least squares estimation developed in Step 1 will be used to estimate the position.
-> 3. An android application will be developed to run estimation software and display the results of the program to the screen for the user. 
-The application can be improved upon by adding user features such as the ability to upload floor plans, select node locations on the screen and, and augmenting the least squares estimation to a sequential least squares, or Kalman filter.
+
+1. Proof of concept. This will be done by developing a basic program in MATLAB to read in raw data files recorded on Decawave's application. The program will use least squares estimation to determine a position at each epoch, using all four ranges. These positions will then be plotted and compared with the solution obtained by the Decawave application. The initial estimation program will demonstrate the feasibility of the project, allowing for a working product in Step 1. 
+2. Team members will learn to use Java and stream raw data directly from the ranging devices, into estimation software. The estimation software will deploy the least squares estimation developed in Step 1 to estimate the users’ position in near real time. In this step the team will be faced with the most risk, and highest reward. All team members will familiarize themselves with these new skills for a collaborative, and efficient process. Once Step 2 is complete the main goal of the project will have been met; a working product to improve the current position software. 
+3. An android application will be developed to run the estimation software and display the results of the program to the screen for the user. 
+
+The application can be improved upon by adding user features such as the ability to upload floor plans, select node locations on the screen and,.  The estimation software can also be improved by augmenting the least squares estimation to a sequential least squares, or Kalman filter. Implementing such code may be feasible by team members after the completion ENGO 563 Data Analysis.
 
 
 # Project Plan
