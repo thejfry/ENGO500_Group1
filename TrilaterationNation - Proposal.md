@@ -13,6 +13,8 @@ Indoor positioning is an ongoing challenge in the market place. With cities grow
 ## Client/user Profile
 > Describe the needs of the clients/users and how they will benefit from the results of this project. Describe what they do and how they will be impacted by the results and how it may influence their future business direction. Describe how clients/users will be engaged in the project.
 
+
+
 # Project Performance Framework
 ## Objectives, outputs, outcomes and criteria
 The objectives of this project have been defined as the two objectives seen in the table below. Overall, the success of this project will be evaluated based on the performance of the final product compared to the currently available application provided by the hardware developer. This application implements a somewhat arbitrary position estimator [Paul 1], which significantly limits the potential of the hardware which may be capable of providing much more accurate positions. The outcomes of both objectives presented could result in an increase in implementation of this indoor positioning system, which will allow users to obtain high-precision position solutions at a low cost, faster, easier and more reliably than before. Obtaining these objectives is well within the capability of this capstone project group, as all positioning methods have been covered in coursework and any required programming techniques are either already known or within the ability of the group members to learn.
@@ -59,6 +61,7 @@ The collaborators on this project include:
 Dr. O'Keefe will be providing guidance on the project more from a distance, as well as evaluating the technical portion of the project. He will also likely be responsible for deciding whether this project will be continued by future students or if this will be the last application of this particualr technology. Chandra and Asal will be providing more of the personal assistance in this project as they have the most experience in the operation and analysis of this technology in the Department of Geomatics, to the best knowledge of the group members at this time. Any further work on this project after its completion will likely be performed by future graduate or undergraduate students.
 
 
+
 # Project Issues and Risks
 ## Issue Identification
 > Specify any major policy, standards, data, technical, partnership and/or client engagement issues that need to be addressed in order for the project to be successful. 
@@ -67,23 +70,22 @@ Dr. O'Keefe will be providing guidance on the project more from a distance, as w
 ## Feasibility and Risk 
 > Identify and evaluate potential challenges or risks in completing and/or sustaining the project.  Please fill out the table and add any other applicable risks.  Examples of risks include: commitment risks, organization risks, contracting risks, technical risks, financial risks, human resources risks (such as the availability of qualified personnel or experienced personnel), project dependencies and/or policy issues related to data access (i.e. licensing, intellectual property, copyright, security, privacy etc). 
 
-There are three main categories of risk within the project; software development, the use and reliability of the product and the open source software for processing and testing, and the risk of not completing the tasks or improving the client experience. The main risk for the completion of this project will be the limitations in software development. Streaming data in real time, programming with Java, and android application development are all new skills being developed by team members. The team currently has access to eight ranging devices, supplied by. However, the firmware embedded in the device currently only supports range values from four node locations. This limits the redundancy of the network, reducing the precision of the estimated position. Finally, the risk of not completing the project
+There are three main categories of risk within the project; software development, the use and reliability of the product and the open source software for processing and testing, and the risk of not completing the tasks or improving the client experience. The main risk for the completion of this project will be the limitations in software development. Streaming data in real time, programming with Java, and android application development are all new skills being developed by team members. The team currently has access to eight ranging devices, supplied by the University of Calgary Plan Group. However, the firmware embedded in the device currently only supports range values from four node locations. This limits the redundancy of the network, reducing the precision of the estimated position. Finally, the risk of not completing the project will depend heavily on the proof of concept. To ensure a final product this risk will be minimized through our project management approach.  
 
 No. | Risk Description | Severity (H/M/L) | Probability (H/M/L) | Mitigation strategies for dealing with each risk 
 ------------ | :-------------: | :-------------: | :-------------: | -------------
 1 | **Software Development** | H | M | Cyclical development for achieving tasks. 
-2 | **Product Reliability** | M | M | Addition ranging devices and potential firmware improvement updates.
+2 | **Product Reliability** | M | M | Additional ranging devices and potential firmware improvement updates.
 3 | **Project Completion** | M | L | Set goals, and levels of completeness
 
-> To demonstrate feasibility, make reference to past research, pilot projects, demonstrations, previous experience, and reports. Evaluate the mitigation statements against the Project Implementation Plan for availability of resources and flexibility to address potential risks.  If no mitigation is planned, indicate “none”.
-
-To mitigate the level of risk within the project, tasks will be completed in a cyclical process. This will be done in 3 steps:
+To mitigate the level of risk within the project, tasks will be managed through a cyclical process. This will allow for development, completion, and improvement at each step. There will be 3 main steps:
 
 1. Proof of concept. This will be done by developing a basic program in MATLAB to read in raw data files recorded on Decawave's application. The program will use least squares estimation to determine a position at each epoch, using all four ranges. These positions will then be plotted and compared with the solution obtained by the Decawave application. The initial estimation program will demonstrate the feasibility of the project, allowing for a working product in Step 1. 
-2. Team members will learn to use Java and stream raw data directly from the ranging devices, into estimation software. The estimation software will deploy the least squares estimation developed in Step 1 to estimate the users’ position in near real time. In this step the team will be faced with the most risk, and highest reward. All team members will familiarize themselves with these new skills for a collaborative, and efficient process. Once Step 2 is complete the main goal of the project will have been met; a working product to improve the current position software. 
-3. An android application will be developed to run the estimation software and display the results of the program to the screen for the user. 
+2. Team members will learn to use Java and stream raw data directly from the ranging devices, into estimation software. The estimation software will deploy the least squares estimation developed in Step 1 to estimate the user's position in near real time. In this step the team will be faced with the most risk, and highest reward. All team members will familiarize themselves with these new skills for a collaborative, and efficient process. Once Step 2 is complete the main goal of the project will have been met; a working product to improve the current position software. 
+3. An android application will be developed to run the estimation software and display the results of the program to the screen for the user in real-time. 
 
-The application can be improved upon by adding user features such as the ability to upload floor plans, select node locations on the screen and,.  The estimation software can also be improved by augmenting the least squares estimation to a sequential least squares, or Kalman filter. Implementing such code may be feasible by team members after the completion ENGO 563 Data Analysis.
+The application can be improved upon by adding user features such as the ability to upload floor plans and select node locations on the screen.  The estimation software can be improved by increasing the number of ranges received at each epoch to increase the redundancy of the network. It could also be improved by augmenting the least squares estimation to a sequential least squares, or Kalman filter. Implementing such code may be feasible by team members after the completion ENGO 563 Data Analysis Fall 2018.
+
 
 
 # Project Plan
@@ -182,6 +184,8 @@ Project costs can be broken down into the following categories:
 
 ## Communications Plan and Accessibility of Project Results
 Results of the project will be dissmeinated throughout our organization through consistent weekly updates, while being communicated to collaborators such as Steve Liang and Kyle O'Keefe through project update presentations occuring in November 2018 and February 2019. All results will be communicated to users and potential clients at the University of Calgary Capstone Design Fair in March 2019.
+
+
 
 # Benefits
 The problem of indoor positioning is becoming more and more relevant as technology progresses and people become more reliant on that technology to solve their problems. Knowing where you are and where you’re going can make people’s lives easier and more efficient. Indoor positioning has a broad range of applications, including personal location, navigation and precise positioning. The use of ranging radios to perform positioning and the integrated use of the concept to display a user’s real time position on an app has benefits that are numerous and far reaching.
