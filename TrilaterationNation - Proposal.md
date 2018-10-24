@@ -165,8 +165,8 @@ WBS | Task & work breakdown | Days effort | Outputs | Start Date | Delivery Date
 3.3 | Make plot showing real time position estimations | 5 | Real time digital mapping code |  | 2019-01-25
 3.4 | Document results | 5 | Milestone report #2 |  | 2019-01-31
 **4** | **Integrate Data Stream into Android App** | ** ** | ** ** | **2019-02-01** | ** **
-4.1 | Integrate position estimator into app developed in 2.4 | 10 |  | 2019-02-13 | 
-4.2 | Test real time position estimation in app in controlled environment | 3 |  | 2019-02-15 | 
+4.1 | Integrate position estimator into app developed in 2.4 | 10 |  |  | 2019-02-13
+4.2 | Test real time position estimation in app in controlled environment | 3 |  |  | 2019-02-15
 4.3 | Test real time position estimation in app in a variety of environments | 5 |  |  |
 4.4 | Document results | 5 | Milestone report #3 |  | 2019-03-01
 **5** | **Present Results** | ** ** | ** ** | **2019-03-04** | ** **
