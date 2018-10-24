@@ -8,6 +8,7 @@ Indoor positioning is an ongoing challenge in the market place. With cities grow
 
 ## Proponent Profile
 > Describe your organization including its mandate and vision, current products and/or services, and priorities and/or factors that influence your business. Describe the use of geomatics within your organization, including technologies and data.
+The organization TrilaterationNation
 ## Project Sponsor Profile
 > Describe collaborating organizations including their mandate and vision, current products and/or services, and priorities and/or factors that influence their business. If organizations should be collaborating and are not, explain why.
 ## Client/user Profile
@@ -49,7 +50,7 @@ Reporting on results | As there will be minimal testing throughout the early sta
 
 ## Sustainability
 
-As this project has been presented by Dr. O'Keefe and all previous work with these ranging radios has been performed by the Position. Location and Navigation (PLAN) research group at the University of Calgary, it is likely that they would undertake the contuned maintenance of the application produced by this project, should they wish to continue using it. The PLAN group has a constant influx of new students, many of whom are strong programmers and would be capable of performing maintenacne on the app software. The majority of the maintenance required would be in keeping the application compatible with the firmware of the radios themselves, as well as any Android updates that could potentially cause compatibility issues with the app. These are extremely necessary tasks as Android software is continually updating, and the radios are also currently running on an older version of their firmware; it may even be necessary to adjust the app during this project, should it become necessary to update the radio firmware immediately.
+As this project has been presented by Dr. O'Keefe and all previous work with these ranging radios has been performed by the Position Location and Navigation (PLAN) research group at the University of Calgary, it is likely that they would undertake the contuned maintenance of the application produced by this project, should they wish to continue using it. The PLAN group has a constant influx of new students, many of whom are strong programmers and would be capable of performing maintenacne on the app software. The majority of the maintenance required would be in keeping the application compatible with the firmware of the radios themselves, as well as any Android updates that could potentially cause compatibility issues with the app. These are extremely necessary tasks as Android software is continually updating, and the radios are also currently running on an older version of their firmware; it may even be necessary to adjust the app during this project, should it become necessary to update the radio firmware immediately.
 
 The collaborators on this project include:
   * Dr. Kyle O'Keefe, who will be supervising the project
@@ -88,32 +89,32 @@ The application can be improved upon by adding user features such as the ability
 
 # Project Plan
 ## Project Team and Resources
-The following are all personnel who will be involved with the completion of 'insert project name'.
+The following are all personnel who will be involved with the completion of the Indoor Positioning using Ultra-Wideband Ranging Systems project.
 
 Name | Paul Gratton
 ------------ | -------------
-**Organization** | Trilateration Nation
+**Organization** | TrilaterationNation
 **Role** | Team Member
 **Responsibilities** | Contribute to completion of the project
 **Key Skills** | Experience in advanced data analysis algorithms for position estimation
 
 Name | Jamie Horrelt
 ------------ | -------------
-**Organization** | Trilateration Nation
+**Organization** | TrilaterationNation
 **Role** | Team Member
 **Responsibilities** | Contribute to completion of the project
 **Key Skills** | Experience in advanced data analysis algorithms for position estimation
 
 Name | Kate Pexman
 ------------ | -------------
-**Organization** | Trilateration Nation
+**Organization** | TrilaterationNation
 **Role** | Team Member
 **Responsibilities** | Contribute to completion of the project
 **Key Skills** | Experience in app development
 
 Name | Jeffrey Plett
 ------------ | -------------
-**Organization** | Trilateration Nation
+**Organization** | TrilaterationNation
 **Role** | Team Member
 **Responsibilities** | Contribute to completion of the project
 **Key Skills** | Experience in digital mapping
@@ -126,6 +127,13 @@ Name | Kyle O'Keefe
 **Key Skills** | Technical knowledge in wireless ranging, experience in project management
 
 Name | Chandra Tjhai
+------------ | -------------
+**Organization** | PLAN group
+**Role** | Tech Consultant
+**Responsibilities** | Suggesting best practices and answering questions regarding the currently available tech
+**Key Skills** | Technical knowledge in wireless ranging and data streams
+
+Name | Asal Naghdi
 ------------ | -------------
 **Organization** | PLAN group
 **Role** | Tech Consultant
@@ -179,10 +187,10 @@ Project costs can be broken down into the following categories:
 - Administration: Printing or binding of results and updates for documentation throughout the project.
 - Communication: Purchasing or printing of presentation materials to clearly portray the results of the project to potential clients and users at the Capstone Design Fair.
 
+Sponsors and investors will not be needed to cover any costs related to the project as all costs will be covered by members of TrilaterationNation
 
 ## Communications Plan and Accessibility of Project Results
 Results of the project will be dissmeinated throughout our organization through consistent weekly updates, while being communicated to collaborators such as Steve Liang and Kyle O'Keefe through project update presentations occuring in November 2018 and February 2019. All results will be communicated to users and potential clients at the University of Calgary Capstone Design Fair in March 2019.
-
 
 
 # Benefits
