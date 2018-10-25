@@ -180,6 +180,7 @@ WBS | Task & work breakdown | Days effort | Outputs | Start Date | Delivery Date
 Project costs can be broken down into the following categories:
 *	Administration: Printing or binding of results and updates for documentation throughout the project.
 *	Communication: Purchasing or printing of presentation materials to clearly portray the results of the project to potential clients and users at the Capstone Design Fair.
+
 Sponsors or investors will not be needed to cover any costs related to the project as all costs will be covered by team members. TrilaterationNation would also like to acknowledge Dr. O’Keefe, and the PLAN Group for supplying all necessary equipment, as well as testing space and support. 
 
 
