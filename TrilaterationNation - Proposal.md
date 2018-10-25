@@ -5,19 +5,16 @@
 Indoor positioning is an ongoing challenge in the market place. With cities growing up and architecture advancing, indoor navigation could be used for construction site navigation, 3D mapping of buildings and floorplans, and many other applications. Ultra-wideband real-time location systems, ranging radios, are a product on the marketplace, that can be used as a solution to this problem. The company Decawave currently makes a small, portable product, sold with their own application that allows the user to select the location of the node radios, and then, using the raw ranging data collected via Bluetooth streams, determines the position of the user [1]. This is done using a simple algorithm that calculates the position from each node, compares the positions, and selects the one that matches the other solutions the best [2]. To improve the user experience, an android application will be developed that will allow for the user to input node locations, upload blueprints, and view their position in real-time. The application will stream raw data from the array of ranging radios and calculate the users position using least squares estimation.
 
 ## Proponent Profile
-> Describe your organization including its mandate and vision, current products and/or services, and priorities and/or factors that influence your business. Describe the use of geomatics within your organization, including technologies and data.
-
-TrilaterationNation seeks to provide solutions to location based problems using trilateration based technologies. We are proud to call TrilaterationNation a geomatics based company due to our ongoing use of ultra-wideband ranging technology and digital mapping applications.TrilaterationNation's current project being developed is a solution to the problem many companies face today regarding positioning in GNSS deprived locations. 
+TrilaterationNation seeks to provide solutions to location-based problems using ranging data in trilateration software. We are proud to call TrilaterationNation a geomatics-based company due to our ongoing use of ultra-wideband ranging technology and digital mapping applications. TrilaterationNation's current project being developed is a solution to the problem many companies face today regarding positioning in GNSS deprived locations.
 
 ## Client/user Profile
-> Describe the needs of the clients/users and how they will benefit from the results of this project. Describe what they do and how they will be impacted by the results and how it may influence their future business direction. Describe how clients/users will be engaged in the project.
-
-Our clients ultimately need to obtain their locations while in GNSS deprived locations. Many of our clients will be mining companies or construction companies who desire a more consistent and accurate method to track their assets on their worksites or need a more reliable way to locate all personnel during safety events. The results of this project will offer our clients a simple, intuitive solution to asset tracking in GNSS deprived locations that will improve on site safety for workers.
+Our clients ultimately need to obtain their locations while in GNSS deprived locations. Many of our clients will be mining companies or construction companies who desire a more consistent and accurate method to track their assets on their worksites. This could also be used as a more reliable way to locate all personnel during safety events. The results of this project will offer our clients a simple, intuitive solution to asset tracking and positioning, in low GNSS coverage, or indoor environments, that will improve on site safety for workers.
 
 
 # Project Performance Framework
 ## Objectives, outputs, outcomes and criteria
-The objectives of this project have been defined as the two objectives seen in the table below. Overall, the success of this project will be evaluated based on the performance of the final product compared to the currently available application provided by the hardware developer. This application implements a somewhat arbitrary position estimator [Paul 1], which significantly limits the potential of the hardware which may be capable of providing much more accurate positions. The outcomes of both objectives presented could result in an increase in implementation of this indoor positioning system, which will allow users to obtain high-precision position solutions at a low cost, faster, easier and more reliably than before. Obtaining these objectives is well within the capability of this capstone project group, as all positioning methods have been covered in coursework and any required programming techniques are either already known or within the ability of the group members to learn.
+The objectives of this project have been defined as the two objectives seen in the table below. Overall, the success of this project will be evaluated based on the performance of the final product compared to the currently available application provided by the hardware developer. This application implements a somewhat arbitrary position estimator [2], which significantly limits the potential of the hardware which may be capable of providing much more accurate positions. The outcomes of both objectives presented could result in an increase in implementation of this indoor positioning system, which will allow users to obtain high-precision position solutions at a low cost, faster, easier and more reliably than before. Obtaining these objectives is well within the capability of this capstone project team, as all positioning methods have been covered in coursework and any required programming techniques are either already known or within the ability of the team members to learn.
+
 
 Item | Project Objectives | Project Outputs | Project Outcomes | Measurement Criteria
 ------------ | ------------- | ------------- | ------------- | -------------
@@ -32,42 +29,41 @@ Project Objective | Measurement Criteria
 1: Improve position estimation | Statistical Analysis
 **Description of Measure** | **Method**
 Method used to measure | Position testing on an accurate 1m x 1m grid, followed by performance testing in non-ideal environments e.g. crowded public spaces
-Responsibility | All group members will participate in test design and implementation, with the group members J. Horrelt and P. Gratton focusing on the analysis and reporting as this is their area of expertise.
+Responsibility | All team members will participate in test design and implementation, with the team members J. Horrelt and P. Gratton focusing on the analysis and reporting as this is their area of expertise.
 Frequency of measure | Amount of testing will depend on consistency of results and success in increasing the complexity of the project. Initial testing to establish functionality and optimize performance in ideal conditions will be frequent (every 2-3 weeks). Testing in non-ideal conditions will be sparse, only provided as an example of how far the final system can be pushed.
-Key targets | First Semester: produce successful post-processing psoition software; December-January: apply post-processing algorithm in real time
-Reporting on results | Software updates will be kept available to the entire group in GitHub or another sharing platform if it is more efficient. Results of major tests or groups of tests will be reported on to supervisor as they become available. Updates will be delivered to the course coordinator informally upon request, and formally at each of the two progress updates required for the course.
+Key targets | First Semester: produce successful post-processing position software; December-January: apply post-processing algorithm in real time
+Reporting on results | Software updates will be kept available to the entire team on GitHub or another sharing platform if it is more efficient. Results of major tests or groups of tests will be reported on to supervisor as they become available. Updates will be delivered to the course coordinator informally upon request, and formally at each of the two progress updates required for the course.
 
 Project Objective | Measurement Criteria
 ------------ | -------------
 2: Improve user interface | Subjective user testing
 **Description of Measure** | **Method**
 Method used to measure | Subjective testing by all group members as well as additional test subjects, by using both the existing app and the new app developed for this project, to determine which is more user-friendly, as well as any further improvements that could be made to the new app.
-Responsibility | The entire group will be involved in design decisions and testing of the user interface, but the majority of the Android application programming will be perfomed by the group members J. Plett and K. Pexman, who have more expertise in this area.
-Frequency of measure | User interface testing will be performed only by the group members as it is updated throughout the project, and will be tested more extensively by additional testers before the final product is completed and released, in as many iterations as it takes to reach an acceptable level of user approval.
+Responsibility | The entire team will be involved in design decisions and testing of the user interface, but the majority of the Android application programming will be perfomed by the team members J. Plett and K. Pexman, who have more expertise in this area.
+Frequency of measure | User interface testing will be performed only by the team members as it is updated throughout the project, and will be tested more extensively by additional testers before the final product is completed and released, in as many iterations as it takes to reach an acceptable level of user approval.
 Key targets | It is only necessary to complete the user interface before the product is released for evaluation, until which it will be in a highly variable state of completeness. Therefore there will be minimal intermediate targets for this objective.
 Reporting on results | As there will be minimal testing throughout the early stages of the project, this objective will likely only be reported on in major progress updates, after the major testing with non-group member users, and in the final presentation.
 
 ## Sustainability
 
-As this project has been presented by Dr. O'Keefe and all previous work with these ranging radios has been performed by the Position Location and Navigation (PLAN) research group at the University of Calgary, it is likely that they would undertake the continued maintenance of the application produced by this project, should they wish to continue using it. The PLAN group has a constant influx of new students, many of whom are strong programmers and would be capable of performing maintenance on the app software. The majority of the maintenance required would be in keeping the application compatible with the firmware of the radios themselves, as well as any Android updates that could potentially cause compatibility issues with the app. These are extremely necessary tasks as Android software is continually updating, and the radios are also currently running on an older version of their firmware; it may even be necessary to adjust the app during this project, should it become necessary to update the radio firmware immediately.
+As this project has been presented by Dr. O'Keefe and all previous work with these ranging devices has been performed by the Position Location and Navigation (PLAN) research group at the University of Calgary, it is likely that they would undertake the continued maintenance of the application produced by this project, should they wish to continue using it. The PLAN group has a constant influx of new students, many of whom are strong programmers and would be capable of performing maintenance on the application software. The majority of the maintenance required would be in keeping the application compatible with the firmware of the radios, as well as any Android updates that could potentially cause compatibility issues with the app. These are extremely necessary tasks as Android software is continually updating. It may be necessary to adjust the application during this project, should it become necessary to update the radio firmware.
 
 The collaborators on this project include:
-  * Dr. Kyle O'Keefe, who will be supervising the project
-  * Chandra Tjhai, one of Dr. O'Keefe's PhD candidates who has previous experience with the equipment
-  * Asal Naghdi, another one of Dr. O'Keefe's PhD candidates who is also currently using the ranging radios in her research.
 
-Dr. O'Keefe will be providing guidance on the project more from a distance, as well as evaluating the technical portion of the project. He will also likely be responsible for deciding whether this project will be continued by future students or if this will be the last application of this particular technology. Chandra and Asal will be providing more of the personal assistance in this project as they have the most experience in the operation and analysis of this technology in the Department of Geomatics, to the best knowledge of the group members at this time. Any further work on this project after its completion will likely be performed by future graduate or undergraduate students.
+* Dr. Kyle O'Keefe – Project Supervisor 
+* Chandra Tjhai – PhD Candidate for Dr. O'Keefe. Has previous experience with the ranging devices and software, experienced programmer, currently conducting testing of the equipment firmware.
+* Asal Naghdi – PhD Candidate for Dr. O'Keefe. Currently using the ranging devices in research.
+
+Dr. O'Keefe will be providing guidance on the project more from a distance, as well as evaluating the technical portion of the project. He will also likely be responsible for deciding whether this project will be continued by future students or if this will be the last application of this particular technology. Chandra and Asal will be providing more personal assistance in this project as they have the most experience with the operation and analysis of this technology within the Department of Geomatics. Further work on this project after its completion will likely be performed by future graduate or undergraduate students.
 
 
 # Project Issues and Risks
 ## Issue Identification
-> Specify any major policy, standards, data, technical, partnership and/or client engagement issues that need to be addressed in order for the project to be successful. 
+The most predominant issues identified for this project are classified as technical issues. These include issues related to the equipment and software. The largest area of risk within the project is software development. Other issues to be addressed include time management, and access to assistance from project collaborators. In order to address these issues, the team has implemented a project management style to allow for progress at each step, ensuring the final goal is met. 
  
 
 ## Feasibility and Risk 
-> Identify and evaluate potential challenges or risks in completing and/or sustaining the project.  Please fill out the table and add any other applicable risks.  Examples of risks include: commitment risks, organization risks, contracting risks, technical risks, financial risks, human resources risks (such as the availability of qualified personnel or experienced personnel), project dependencies and/or policy issues related to data access (i.e. licensing, intellectual property, copyright, security, privacy etc). 
-
-There are three main categories of risk within the project; software development, the use and reliability of the product and the open source software for processing and testing, and the risk of not completing the tasks or improving the client experience. The main risk for the completion of this project will be the limitations in software development. Streaming data in real time, programming with Java, and android application development are all new skills being developed by team members. The team currently has access to eight ranging devices, supplied by the University of Calgary Plan Group. However, the firmware embedded in the device currently only supports range values from four node locations. This limits the redundancy of the network, reducing the precision of the estimated position. Finally, the risk of not completing the project will depend heavily on the proof of concept. To ensure a final product this risk will be minimized through our project management approach.  
+There are three main categories of risk within the project; software development, the use and reliability of the product and the open source software for processing and testing, and the risk of not completing the tasks or improving the client experience. The main risk for the completion of this project will be the limitations in software development. Streaming data in real time, programming with Java, and android application development are all new skills being developed by team members. The team currently has access to eight ranging devices, supplied by the University of Calgary Plan Group. However, the firmware embedded in the device currently only supports range values from four node locations. This limits the redundancy of the network, reducing the precision of the estimated position. Finally, the risk of not completing the project will depend heavily on the proof of concept. To ensure a final product this risk will be minimized through our project management approach. 
 
 No. | Risk Description | Severity (H/M/L) | Probability (H/M/L) | Mitigation strategies for dealing with each risk 
 ------------ | :-------------: | :-------------: | :-------------: | -------------
@@ -101,23 +97,23 @@ Name | Jamie Horrelt
 **Organization** | TrilaterationNation
 **Role** | Team Member
 **Responsibilities** | Contribute to completion of the project with focus on statistical analysis of results and development of data analysis algorithms
-**Key Skills** | Experience in advanced data analysis algorithms for position estimation
+**Key Skills** | Experience in advanced data analysis algorithms for position estimation. Strong project management and report writing skills
 
 Name | Kate Pexman
 ------------ | -------------
 **Organization** | TrilaterationNation
 **Role** | Team Member
 **Responsibilities** | Contribute to completion of the project with focus on app development to integrate position solutions into a digital map
-**Key Skills** | Experience in app development
+**Key Skills** | Experience in app development and research. Strong time management skills
 
 Name | Jeffrey Plett
 ------------ | -------------
 **Organization** | TrilaterationNation
 **Role** | Team Member
 **Responsibilities** | Contribute to completion of the project with focus on app development to integrate position solutions into a digital map
-**Key Skills** | Experience in digital mapping
+**Key Skills** | Experience in digital mapping and data analysis
 
-Name | Kyle O'Keefe
+Name | Dr. Kyle O'Keefe
 ------------ | -------------
 **Organization** | University of Calgary
 **Role** | Project Supervisor
@@ -129,7 +125,7 @@ Name | Chandra Tjhai
 **Organization** | PLAN group
 **Role** | Tech Consultant
 **Responsibilities** | Suggesting best practices and answering questions regarding the currently available tech
-**Key Skills** | Technical knowledge in wireless ranging and data streams
+**Key Skills** | Technical knowledge in wireless ranging and data streams, strong programming skilling
 
 Name | Asal Naghdi
 ------------ | -------------
@@ -138,7 +134,7 @@ Name | Asal Naghdi
 **Responsibilities** | Suggesting best practices and answering questions regarding the currently available tech
 **Key Skills** | Technical knowledge in wireless ranging and data streams
 
-Name | Steve Liang
+Name | Dr. Steve Liang
 ------------ | -------------
 **Organization** | SensorUp
 **Role** | Project Management Consultant
@@ -182,10 +178,10 @@ WBS | Task & work breakdown | Days effort | Outputs | Start Date | Delivery Date
 
 ## Budget Summary
 Project costs can be broken down into the following categories:
-- Administration: Printing or binding of results and updates for documentation throughout the project.
-- Communication: Purchasing or printing of presentation materials to clearly portray the results of the project to potential clients and users at the Capstone Design Fair.
+*	Administration: Printing or binding of results and updates for documentation throughout the project.
+*	Communication: Purchasing or printing of presentation materials to clearly portray the results of the project to potential clients and users at the Capstone Design Fair.
+Sponsors or investors will not be needed to cover any costs related to the project as all costs will be covered by team members. TrilaterationNation would also like to acknowledge Dr. O’Keefe, and the PLAN Group for supplying all necessary equipment, as well as testing space and support. 
 
-Sponsors or investors will not be needed to cover any costs related to the project as all costs will be covered by members of the TrilaterationNation organization.
 
 ## Communications Plan and Accessibility of Project Results
 Results of the project will be dissmeinated throughout our organization through consistent weekly updates, while being communicated to collaborators such as Steve Liang and Kyle O'Keefe through project update presentations occuring in November 2018 and February 2019. All results will be communicated to users and potential clients at the University of Calgary Capstone Design Fair in March 2019.
@@ -202,6 +198,6 @@ Being able to determine your position in real time without the use of GNSS or ot
 This project will also benefit the area of research from a technological standpoint because it will make a user’s real time position available to them in a visual way on their device. The development of the positioning app will improve upon the pre-existing app that already does a simplified version of this task. Being able to access a user’s real time position could be beneficial to all kinds of navigation and mapping applications. For example, this technology could be tied into a map of a university campus to gain a user’s real time position as they move about the campus. Pre-existing mapping applications use satellite technology to determine a user’s position, and therefore are extremely limited when it comes to determining a user’s position inside a building. Our solution, will not be limited to strictly outdoor positioning.
 
 # References 
-[1] decawave website
-[2] mdek user manual
-[Paul 1] Personal Communication, Dr. O'Keefe, whenever that first meeting was
+[1] “MDEK1001 – decaWave”, decaWave.com, 2018. [Online]. Available: https://www.decawave.com/?attachment_id=5005.
+[2] “MDEK1001 Kit User Manual”, decaWave, version 1, 2017.
+
