@@ -2,18 +2,17 @@
 
 # Project Overview
 ## Project Description
-> Provide a short narrative description of the project.  Identify/describe any technical and business problem that would be solved, the key benefits and how the project aligns with/supports the strategic direction/objectives of the proponent organization or members, its collaborators, and clients/users.
-
 Indoor positioning is an ongoing challenge in the market place. With cities growing up and architecture advancing, indoor navigation could be used for construction site navigation, 3D mapping of buildings and floorplans, and many other applications. Ultra-wideband real-time location systems, ranging radios, are a product on the marketplace, that can be used as a solution to this problem. The company Decawave currently makes a small, portable product, sold with their own application that allows the user to select the location of the node radios, and then, using the raw ranging data collected via Bluetooth streams, determines the position of the user [1]. This is done using a simple algorithm that calculates the position from each node, compares the positions, and selects the one that matches the other solutions the best [2]. To improve the user experience, an android application will be developed that will allow for the user to input node locations, upload blueprints, and view their position in real-time. The application will stream raw data from the array of ranging radios and calculate the users position using least squares estimation.
 
 ## Proponent Profile
 > Describe your organization including its mandate and vision, current products and/or services, and priorities and/or factors that influence your business. Describe the use of geomatics within your organization, including technologies and data.
-The organization TrilaterationNation
-## Project Sponsor Profile
-> Describe collaborating organizations including their mandate and vision, current products and/or services, and priorities and/or factors that influence their business. If organizations should be collaborating and are not, explain why.
+
+TrilaterationNation seeks to provide solutions to location based problems using trilateration based technologies. We are proud to call TrilaterationNation a geomatics based company due to our ongoing use of ultra-wideband ranging technology and digital mapping applications.TrilaterationNation's current project being developed is a solution to the problem many companies face today regarding positioning in GNSS deprived locations. 
+
 ## Client/user Profile
 > Describe the needs of the clients/users and how they will benefit from the results of this project. Describe what they do and how they will be impacted by the results and how it may influence their future business direction. Describe how clients/users will be engaged in the project.
 
+Our clients ultimately need to obtain their locations while in GNSS deprived locations. Many of our clients will be mining companies or construction companies who desire a more consistent and accurate method to track their assets on their worksites or need a more reliable way to locate all personnel during safety events. The results of this project will offer our clients a simple, intuitive solution to asset tracking in GNSS deprived locations that will improve on site safety for workers.
 
 
 # Project Performance Framework
@@ -35,7 +34,7 @@ Project Objective | Measurement Criteria
 Method used to measure | Position testing on an accurate 1m x 1m grid, followed by performance testing in non-ideal environments e.g. crowded public spaces
 Responsibility | All group members will participate in test design and implementation, with the group members J. Horrelt and P. Gratton focusing on the analysis and reporting as this is their area of expertise.
 Frequency of measure | Amount of testing will depend on consistency of results and success in increasing the complexity of the project. Initial testing to establish functionality and optimize performance in ideal conditions will be frequent (every 2-3 weeks). Testing in non-ideal conditions will be sparse, only provided as an example of how far the final system can be pushed.
-Key targets | First Semester: produce successful post-processing psoition software; February: apply post-processing algorithm in real time
+Key targets | First Semester: produce successful post-processing psoition software; December-January: apply post-processing algorithm in real time
 Reporting on results | Software updates will be kept available to the entire group in GitHub or another sharing platform if it is more efficient. Results of major tests or groups of tests will be reported on to supervisor as they become available. Updates will be delivered to the course coordinator informally upon request, and formally at each of the two progress updates required for the course.
 
 Project Objective | Measurement Criteria
@@ -50,15 +49,14 @@ Reporting on results | As there will be minimal testing throughout the early sta
 
 ## Sustainability
 
-As this project has been presented by Dr. O'Keefe and all previous work with these ranging radios has been performed by the Position Location and Navigation (PLAN) research group at the University of Calgary, it is likely that they would undertake the contuned maintenance of the application produced by this project, should they wish to continue using it. The PLAN group has a constant influx of new students, many of whom are strong programmers and would be capable of performing maintenacne on the app software. The majority of the maintenance required would be in keeping the application compatible with the firmware of the radios themselves, as well as any Android updates that could potentially cause compatibility issues with the app. These are extremely necessary tasks as Android software is continually updating, and the radios are also currently running on an older version of their firmware; it may even be necessary to adjust the app during this project, should it become necessary to update the radio firmware immediately.
+As this project has been presented by Dr. O'Keefe and all previous work with these ranging radios has been performed by the Position Location and Navigation (PLAN) research group at the University of Calgary, it is likely that they would undertake the continued maintenance of the application produced by this project, should they wish to continue using it. The PLAN group has a constant influx of new students, many of whom are strong programmers and would be capable of performing maintenance on the app software. The majority of the maintenance required would be in keeping the application compatible with the firmware of the radios themselves, as well as any Android updates that could potentially cause compatibility issues with the app. These are extremely necessary tasks as Android software is continually updating, and the radios are also currently running on an older version of their firmware; it may even be necessary to adjust the app during this project, should it become necessary to update the radio firmware immediately.
 
 The collaborators on this project include:
   * Dr. Kyle O'Keefe, who will be supervising the project
   * Chandra Tjhai, one of Dr. O'Keefe's PhD candidates who has previous experience with the equipment
   * Asal Naghdi, another one of Dr. O'Keefe's PhD candidates who is also currently using the ranging radios in her research.
 
-Dr. O'Keefe will be providing guidance on the project more from a distance, as well as evaluating the technical portion of the project. He will also likely be responsible for deciding whether this project will be continued by future students or if this will be the last application of this particualr technology. Chandra and Asal will be providing more of the personal assistance in this project as they have the most experience in the operation and analysis of this technology in the Department of Geomatics, to the best knowledge of the group members at this time. Any further work on this project after its completion will likely be performed by future graduate or undergraduate students.
-
+Dr. O'Keefe will be providing guidance on the project more from a distance, as well as evaluating the technical portion of the project. He will also likely be responsible for deciding whether this project will be continued by future students or if this will be the last application of this particular technology. Chandra and Asal will be providing more of the personal assistance in this project as they have the most experience in the operation and analysis of this technology in the Department of Geomatics, to the best knowledge of the group members at this time. Any further work on this project after its completion will likely be performed by future graduate or undergraduate students.
 
 
 # Project Issues and Risks
@@ -95,28 +93,28 @@ Name | Paul Gratton
 ------------ | -------------
 **Organization** | TrilaterationNation
 **Role** | Team Member
-**Responsibilities** | Contribute to completion of the project
+**Responsibilities** | Contribute to completion of the project with focus on statistical analysis of results and development of data analysis algorithms
 **Key Skills** | Experience in advanced data analysis algorithms for position estimation
 
 Name | Jamie Horrelt
 ------------ | -------------
 **Organization** | TrilaterationNation
 **Role** | Team Member
-**Responsibilities** | Contribute to completion of the project
+**Responsibilities** | Contribute to completion of the project with focus on statistical analysis of results and development of data analysis algorithms
 **Key Skills** | Experience in advanced data analysis algorithms for position estimation
 
 Name | Kate Pexman
 ------------ | -------------
 **Organization** | TrilaterationNation
 **Role** | Team Member
-**Responsibilities** | Contribute to completion of the project
+**Responsibilities** | Contribute to completion of the project with focus on app development to integrate position solutions into a digital map
 **Key Skills** | Experience in app development
 
 Name | Jeffrey Plett
 ------------ | -------------
 **Organization** | TrilaterationNation
 **Role** | Team Member
-**Responsibilities** | Contribute to completion of the project
+**Responsibilities** | Contribute to completion of the project with focus on app development to integrate position solutions into a digital map
 **Key Skills** | Experience in digital mapping
 
 Name | Kyle O'Keefe
@@ -187,7 +185,7 @@ Project costs can be broken down into the following categories:
 - Administration: Printing or binding of results and updates for documentation throughout the project.
 - Communication: Purchasing or printing of presentation materials to clearly portray the results of the project to potential clients and users at the Capstone Design Fair.
 
-Sponsors and investors will not be needed to cover any costs related to the project as all costs will be covered by members of TrilaterationNation
+Sponsors or investors will not be needed to cover any costs related to the project as all costs will be covered by members of the TrilaterationNation organization.
 
 ## Communications Plan and Accessibility of Project Results
 Results of the project will be dissmeinated throughout our organization through consistent weekly updates, while being communicated to collaborators such as Steve Liang and Kyle O'Keefe through project update presentations occuring in November 2018 and February 2019. All results will be communicated to users and potential clients at the University of Calgary Capstone Design Fair in March 2019.
@@ -198,10 +196,10 @@ The problem of indoor positioning is becoming more and more relevant as technolo
  
 ## Benefits to Canadians 
 The possible benefits of this project to Canadians can be classified into two different categories: the mathematical side and the technology side. 
-Being able to determine your position in real time without the use of GPS or other satellites is a advantage. It means that applications such as the one discussed in this project can be used in locations where no satellite constellations are visible, and it not just limited to indoor positioning. For example, in a mine site it is extremely important to know your location and where you are in reference to other objects. However, it is extremely difficult to determine your positioning using GPS or RTK methods because no satellites can be recognized from underground. Even in outdoor applications when tree cover is dense, or the majority of the sky is blocked by large buildings, the limitations of GPS and RTK technology are highlighted. This project will use least squares to gain a better estimate of the position of the user than is currently being output by the app. This will benefit the concept of ranging radios by showing that they can in fact be used for precise positioning.
+Being able to determine your position in real time without the use of GNSS or other satellites is a advantage. It means that applications such as the one discussed in this project can be used in locations where no satellite constellations are visible, and it not just limited to indoor positioning. For example, in a mine site it is extremely important to know your location and the locations of all company assets. However, it is extremely difficult to determine positions using GNSS methods because no satellites can be recognized from underground. Even in outdoor applications when tree cover is dense, or the majority of the sky is blocked by large buildings, the limitations of GNSS technology are highlighted. This project will gain a better estimate of the position of the user than is currently being provided by the app. This will benefit the concept of ranging radios by showing that they can in fact be used for precise positioning.
 
 ## Benefits to Sponsors and Users
-This project will also benefit the area of research from a technological standpoint because it will make a user’s real time position available to them in a visual way on their device. The development of the positioning app will improve upon the pre-existing app that already does a simplified version of this task. Being able to access a user’s real time position could be beneficial to all kinds of navigation and mapping applications. For example, this technology could be tied into a map of the University of Calgary campus to gain a user’s real time position as they move about the campus. Pre-existing mapping applications use satellite technology to determine a user’s position, and therefore are extremely limited when it comes to determining a user’s position inside a building.
+This project will also benefit the area of research from a technological standpoint because it will make a user’s real time position available to them in a visual way on their device. The development of the positioning app will improve upon the pre-existing app that already does a simplified version of this task. Being able to access a user’s real time position could be beneficial to all kinds of navigation and mapping applications. For example, this technology could be tied into a map of a university campus to gain a user’s real time position as they move about the campus. Pre-existing mapping applications use satellite technology to determine a user’s position, and therefore are extremely limited when it comes to determining a user’s position inside a building. Our solution, will not be limited to strictly outdoor positioning.
 
 # References 
 [1] decawave website
