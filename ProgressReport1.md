@@ -2,7 +2,7 @@
 ## Milestone Summary
 
 Milestone | Components | Planned Delivery Date | Acutal Delivery Date
-:---------------: | :-------------: | :-------------: | :-------------: 
+:------------------: | :-------------: | :-------------: | :-------------: 
 Milestone 1 | Project Proposal presentation | 2018-10-31 | 2019-10-31
 Milestone 2 | Proof of Concept documentation | 2018-11-30 | In Progress
 Milestone 3 | Basic app documentation | 2018-11-30 | In Progress  
