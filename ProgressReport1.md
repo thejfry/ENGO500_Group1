@@ -20,7 +20,7 @@ Milestone 7 | Data Stream integration into Android App documentation| 2019-03-01
 ## 2.1 Summary of Work Accomplished During this Period
 > Template Instructions: Describe the work accomplished in this phase. Include a brief summary of the work accomplished in comparison to the work plan. Provide relevant samples of the work progress, that is useful for evaluating the progress, such as URLs of prototype, operational results, pictures of field work, sample data collected, URL of code repository, etc.
 
-The work accomplished for the project thus far has coincided with the original Work Breakdown Structure (WBS), as seen in the summary of milestones above. The current phase of the project has focused primarily on the development of a proof of concept. To show proof of concept, a post processed least squares estimation was preformed to determine the position of the user, using the ranges observed from each node.  The completed results from phase one can be found in the List of Attachments, below. The repository for the code used to implement this phase of the project can be found at ___URL___. 
+The work accomplished for the project thus far has coincided with the original Work Breakdown Structure (WBS), as seen in the summary of milestones above. The current phase of the project has focused primarily on the development of a proof of concept. To show proof of concept, a post processed least squares estimation was preformed to determine the position of the user, using the ranges observed from each node.  The completed results from phase one can be found in the List of Attachments, below. The repository for the code used to implement this phase of the project can be found at [Phase1_EstimationCode] (URL). 
 
 The work accomplished during this phase of the project was divided among group members to complete individually. The tasks completed were as follows:
 
@@ -68,5 +68,5 @@ All of the changes discussed above were made by the group to keep the progress o
 
 ## 2.4 List of Attachments
 
-1. Phase 1 Proof of Concept Documentation: Phase1_Poc.md ___URL___
-2. Phase 1 Proof of Concept Code Repository: Phase1_Poc ___URL___
+1. Phase 1 Proof of Concept Documentation: [Phase1_Poc.pdf ](URL)
+2. Phase 1 Proof of Concept Code Repository: [Phase1_EstimationCode] (URL)
