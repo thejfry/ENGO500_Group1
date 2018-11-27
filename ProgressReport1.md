@@ -1,5 +1,5 @@
 # 1. Introduction
-The goal of this project is to utilize ultra-wideband ranging radios to estimate and display a real-time location using an android application. In this first portion of the project time has been spent writing the proposal, developing the proof of concept for the positioning solution, and learning the basics of the application development platform that will be used to create the android app. The table shown in the Milestone Summary updates the work breakdown structure outlined in the proposal presented by Trilateration Nation.
+The goal of this project is to utilize ultra-wideband ranging radios to estimate and display a real-time location using an android application. In this first portion of the project, time has been spent writing the proposal, developing the proof of concept for the positioning solution, and learning the basics of the application development platform that will be used to create the android app. The table shown in the Milestone Summary updates the work breakdown structure outlined in the proposal presented by Trilateration Nation.
 
 
 ## Milestone Summary
