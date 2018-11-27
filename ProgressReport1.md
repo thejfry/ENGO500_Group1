@@ -66,7 +66,7 @@ Delivery date of data stream documentation has been changed | The delivery date 
 
 All of the changes discussed above were made by the group to keep the progress of the project on schedule. 
 
-## 2.4 List of Attachments
+# 3. List of Attachments
 
-1. Phase 1 Proof of Concept Documentation: [Phase1_Poc.pdf ](URL)
+1. Phase 1 Proof of Concept Documentation: [Phase1_Poc.pdf ](https://github.com/thejfry/ENGO500_Group1/blob/master/Phase1_PoC.pdf)
 2. Phase 1 Proof of Concept Code Repository: [Phase1_EstimationCode] (URL)
