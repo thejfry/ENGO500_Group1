@@ -7,7 +7,7 @@ The goal of this project is to utilize ultra-wideband ranging radios to estimate
 Milestone | Components | Planned Delivery Date | Actual Delivery Date
 :------------------: | :-------------: | :-------------: | :-------------: 
 Milestone 1 | Project Proposal presentation | 2018-10-31 | 2019-10-31
-Milestone 2 | Phase 1 Proof of Concept documentation | 2018-11-30 | 2018-11-30
+Milestone 2 | Phase 1 Proof of Concept documentation | 2018-11-30 | 2018-11-27
 Milestone 3 | Control survey of testing environment* | 2018-12-07 | 2018-12-07
 Milestone 4 | Phase 2 Proof of Concept documentation* | 2019-01-15 | In Progress
 Milestone 5 | Basic app documentation | 2018-11-30* | In Progress  
