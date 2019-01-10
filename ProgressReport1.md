@@ -8,7 +8,7 @@ Milestone | Components | Planned Delivery Date | Actual Delivery Date
 :------------------: | :-------------: | :-------------: | :-------------: 
 Milestone 1 | Project Proposal presentation | 2018-10-31 | 2019-10-31
 Milestone 2 | Phase 1 Proof of Concept documentation | 2018-11-30 | In Progress
-Milestone 3 | Control survey of testing environment* | 2018-12-07 | -
+Milestone 3 | Control survey of testing environment* | 2018-12-07 | 2018-12-07
 Milestone 4 | Phase 2 Proof of Concept documentation* | 2019-01-01 | -
 Milestone 5 | Basic app documentation | 2018-11-30* | In Progress  
 Milestone 6 | Data Stream documentation | 2019-01-31* | -
